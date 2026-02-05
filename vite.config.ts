@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
     hmr: {
       clientPort: 8080,
     },
-    allowedHosts: [".manusvm.computer"],
+    allowedHosts: true,
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   base: './',
