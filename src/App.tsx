@@ -19,6 +19,10 @@ import RegionPage from "./pages/regions/RegionPage";
 import DepartmentPage from "./pages/departments/DepartmentPage";
 import ArrondissementPage from "./pages/paris/ArrondissementPage";
 import ParisPage from "./pages/paris/ParisPage";
+import LyonPage from "./pages/lyon/LyonPage";
+import LyonArrondissementPage from "./pages/lyon/LyonArrondissementPage";
+import MarseillePage from "./pages/marseille/MarseillePage";
+import MarseilleArrondissementPage from "./pages/marseille/MarseilleArrondissementPage";
 import Blog from "./pages/Blog";
 import BlogArticle from "./pages/BlogArticle";
 import ServicesHub from "./pages/ServicesHub";
@@ -76,6 +80,18 @@ const App = () => (
           
           {/* Pages arrondissements Paris - Niveau 5 */}
           <Route path="/paris/:arrondissementSlug" element={<ArrondissementPage />} />
+          
+          {/* Page Lyon principale - Hub des arrondissements */}
+          <Route path="/villes/lyon" element={<LyonPage />} />
+          
+          {/* Pages arrondissements Lyon - Niveau 5 */}
+          <Route path="/lyon/:arrondissementSlug" element={<LyonArrondissementPage />} />
+          
+          {/* Page Marseille principale - Hub des arrondissements */}
+          <Route path="/villes/marseille" element={<MarseillePage />} />
+          
+          {/* Pages arrondissements Marseille - Niveau 5 */}
+          <Route path="/marseille/:arrondissementSlug" element={<MarseilleArrondissementPage />} />
           
           {/* Page Hub Services - Niveau 1 (Page Pivot) */}
           <Route path="/services" element={<ServicesHub />} />
