@@ -1,9 +1,10 @@
 import { Button } from "@/components/ui/button";
-import { Shield, CheckCircle, ArrowRight, Play } from "lucide-react";
+import { Shield, CheckCircle, ArrowRight, Play, Sparkles } from "lucide-react";
 import { content } from "@/data/content";
 import heroImage from "@/assets/hero-security.webp";
 import { useEffect, useState } from "react";
 import { useSmoothScroll } from "@/hooks/useSmoothScroll";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   const heroContent = content.hero;
@@ -48,36 +49,72 @@ const Hero = () => {
         className="absolute bottom-1/4 right-1/4 w-48 h-48 bg-accent/20 rounded-full blur-3xl animate-pulse-slow hidden lg:block"
         style={{ transform: `translateY(${scrollY * 0.2}px)`, animationDelay: '1s' }}
       ></div>
+      {/* Floating particles effect */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none hidden lg:block">
+        {[...Array(6)].map((_, i) => (
+          <motion.div
+            key={i}
+            className="absolute w-2 h-2 bg-primary/30 rounded-full"
+            style={{
+              left: `${15 + i * 15}%`,
+              top: `${20 + (i % 3) * 25}%`,
+            }}
+            animate={{
+              y: [0, -30, 0],
+              opacity: [0.3, 0.8, 0.3],
+              scale: [1, 1.5, 1],
+            }}
+            transition={{
+              duration: 4 + i,
+              repeat: Infinity,
+              delay: i * 0.5,
+            }}
+          />
+        ))}
+      </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           {/* Badge with Answer-First positioning */}
-          <div 
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 20 }}
+            transition={{ duration: 0.6 }}
             className={`badge-primary mb-8 transition-all duration-700 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
           >
             <Shield className="w-5 h-5" />
             <span>Spécialiste Sécurité depuis 2015</span>
-          </div>
+            <Sparkles className="w-4 h-4 text-accent animate-pulse" />
+          </motion.div>
 
           {/* Main Heading with Answer-First - phrase autonome et citable */}
-          <h1 
+          <motion.h1 
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 30 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
             className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-[1.1] text-center md:text-left transition-all duration-700 delay-100 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
           >
             <span className="text-gradient-animated">Vidéosurveillance</span>,{" "}
             <span className="text-gradient-animated" style={{ animationDelay: '0.5s' }}>Alarme</span> &{" "}
             <span className="text-gradient-animated" style={{ animationDelay: '1s' }}>Domotique</span> :{" "}
             Votre Sécurité, Notre Priorité
-          </h1>
+          </motion.h1>
 
           {/* Subtitle - Answer-First: phrase autonome citable par IA */}
-          <p 
+          <motion.p 
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 30 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
             className={`text-lg md:text-xl text-muted-foreground mb-10 leading-relaxed text-center md:text-left max-w-2xl transition-all duration-700 delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
           >
             <strong>HD Connect installe des systèmes de sécurité professionnels</strong> pour protéger maisons et entreprises : vidéosurveillance 4K, alarmes certifiées NF&A2P, contrôle d'accès biométrique. Techniciens certifiés, intervention rapide 4h, garantie 5 ans.
-          </p>
+          </motion.p>
 
           {/* CTA Buttons */}
-          <div 
+          <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 30 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
             className={`flex flex-col sm:flex-row gap-4 mb-14 transition-all duration-700 delay-300 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
           >
             <Button 
@@ -97,7 +134,7 @@ const Hero = () => {
               <Play className="mr-2 w-5 h-5 text-accent" />
               Intervention Urgente
             </Button>
-          </div>
+          </motion.div>
 
           {/* Trust Badges with staggered animation */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
@@ -109,16 +146,19 @@ const Hero = () => {
               ];
               const iconColors = ['text-blue-500', 'text-green-500', 'text-violet-500'];
               return (
-                <div 
+                <motion.div 
                   key={badge.label} 
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 20 }}
+                  transition={{ duration: 0.5, delay: 0.4 + index * 0.1 }}
+                  whileHover={{ scale: 1.05, y: -4 }}
                   className={`flex items-center gap-3 p-4 rounded-xl bg-gradient-to-br ${badgeColors[index]} backdrop-blur-sm border hover:scale-105 transition-all duration-500 hover:shadow-lg card-hover-glow ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
-                  style={{ transitionDelay: `${400 + index * 100}ms` }}
                 >
                   <div className="w-10 h-10 rounded-lg bg-card/80 flex items-center justify-center shadow-inner">
                     <badge.icon className={`w-5 h-5 ${iconColors[index]}`} />
                   </div>
                   <span className="text-foreground font-medium text-sm md:text-base">{badge.label}</span>
-                </div>
+                </motion.div>
               );
             })}
           </div>
