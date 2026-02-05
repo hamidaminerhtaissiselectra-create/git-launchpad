@@ -1,16 +1,19 @@
 import { useState, useEffect } from "react";
-import { FileText, Phone, MessageCircle, X, Zap, ArrowRight } from "lucide-react";
+import { FileText, Phone, MessageCircle, X, Zap, ArrowRight, Sparkles } from "lucide-react";
 import { content } from "@/data/content";
 import { motion, AnimatePresence } from "framer-motion";
 import { useSmoothScroll } from "@/hooks/useSmoothScroll";
 import { Button } from "@/components/ui/button";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const GlobalFloatingCTA = () => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [showPulse, setShowPulse] = useState(true);
   const [hasScrolled, setHasScrolled] = useState(false);
+  const [showMobileBanner, setShowMobileBanner] = useState(true);
   const { scrollToSection } = useSmoothScroll();
   const contactInfo = content.company.contact;
+  const isMobile = useIsMobile();
 
   // WhatsApp formaté
   const whatsappNumber = contactInfo.phoneMobile.replace(/\s/g, '').replace('+', '');
@@ -31,18 +34,71 @@ const GlobalFloatingCTA = () => {
     return () => clearTimeout(timer);
   }, []);
 
+  // Masquer la bannière mobile après 15 secondes
+  useEffect(() => {
+    if (isMobile) {
+      const timer = setTimeout(() => setShowMobileBanner(false), 15000);
+      return () => clearTimeout(timer);
+    }
+  }, [isMobile]);
+
   const handleQuoteClick = () => {
     setIsExpanded(false);
+    setShowMobileBanner(false);
     scrollToSection("quote", { mode: "quote" });
   };
 
   const handleInterventionClick = () => {
     setIsExpanded(false);
+    setShowMobileBanner(false);
     scrollToSection("quote", { mode: "intervention" });
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+    <>
+      {/* Bannière mobile sticky en bas */}
+      <AnimatePresence>
+        {isMobile && showMobileBanner && hasScrolled && !isExpanded && (
+          <motion.div
+            initial={{ y: 100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: 100, opacity: 0 }}
+            className="fixed bottom-0 left-0 right-0 z-40 bg-gradient-to-r from-primary via-accent to-primary p-3 shadow-2xl"
+          >
+            <div className="container mx-auto flex items-center justify-between gap-3">
+              <div className="flex items-center gap-2 text-white">
+                <Sparkles className="w-5 h-5 animate-pulse" />
+                <span className="font-semibold text-sm">Devis gratuit en 2 min</span>
+              </div>
+              <div className="flex gap-2">
+                <motion.button
+                  whileTap={{ scale: 0.95 }}
+                  onClick={handleQuoteClick}
+                  className="px-4 py-2 bg-white text-primary font-bold rounded-full text-sm shadow-lg"
+                >
+                  Devis
+                </motion.button>
+                <motion.a
+                  whileTap={{ scale: 0.95 }}
+                  href={`tel:${contactInfo.phoneMobile.replace(/\s/g, '')}`}
+                  className="px-4 py-2 bg-white/20 text-white font-bold rounded-full text-sm border border-white/30"
+                >
+                  <Phone className="w-4 h-4" />
+                </motion.a>
+                <button 
+                  onClick={() => setShowMobileBanner(false)}
+                  className="p-1 text-white/70 hover:text-white"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Menu flottant */}
+      <div className={`fixed ${isMobile && showMobileBanner && hasScrolled ? 'bottom-20' : 'bottom-6'} right-6 z-50 flex flex-col items-end gap-3 transition-all duration-300`}>
       {/* Menu étendu */}
       <AnimatePresence>
         {isExpanded && (
@@ -205,6 +261,7 @@ const GlobalFloatingCTA = () => {
         )}
       </motion.div>
     </div>
+    </>
   );
 };
 
