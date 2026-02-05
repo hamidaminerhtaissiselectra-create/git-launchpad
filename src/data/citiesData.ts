@@ -1540,22 +1540,457 @@ export const citiesData: CityData[] = [
   }
 ];
 
+// ===== BANLIEUES LYON =====
+const lyonSuburbs: CityData[] = [
+  {
+    name: "Caluire-et-Cuire",
+    slug: "caluire-et-cuire",
+    department: "Rhône",
+    departmentCode: "69",
+    region: "Auvergne-Rhône-Alpes",
+    regionSlug: "auvergne-rhone-alpes",
+    population: "43 000",
+    description: "HD Connect Caluire-et-Cuire : sécurité résidentielle haut de gamme. Protection pavillons, copropriétés et commerces. Vidéosurveillance discrète.",
+    neighborhoods: ["Montessuy", "Saint-Clair", "Vassieux", "Cuire", "Centre-Ville"],
+    nearbyTowns: ["Lyon 4e", "Rillieux-la-Pape", "Sathonay-Camp", "Fontaines-sur-Saône", "Collonges-au-Mont-d'Or"]
+  },
+  {
+    name: "Bron",
+    slug: "bron",
+    department: "Rhône",
+    departmentCode: "69",
+    region: "Auvergne-Rhône-Alpes",
+    regionSlug: "auvergne-rhone-alpes",
+    population: "42 000",
+    description: "Expert sécurité Bron par HD Connect. Protection aéroport Lyon-Bron, hôpitaux et résidences. Vidéosurveillance HD, alarmes certifiées.",
+    neighborhoods: ["Parilly", "Terraillon", "Centre-Ville", "La Grande Île", "Revaison"],
+    nearbyTowns: ["Lyon 8e", "Villeurbanne", "Vénissieux", "Saint-Priest", "Chassieu"]
+  },
+  {
+    name: "Oullins",
+    slug: "oullins",
+    department: "Rhône",
+    departmentCode: "69",
+    region: "Auvergne-Rhône-Alpes",
+    regionSlug: "auvergne-rhone-alpes",
+    population: "26 000",
+    description: "Sécurité Oullins par HD Connect. Protection commerces, entreprises et résidences. Vidéosurveillance, alarmes connectées.",
+    neighborhoods: ["Centre-Ville", "La Saulaie", "Pierre Bénite", "Sœurs", "Les Cèdres"],
+    nearbyTowns: ["Lyon 7e", "Pierre-Bénite", "La Mulatière", "Saint-Genis-Laval", "Sainte-Foy-lès-Lyon"]
+  },
+  {
+    name: "Écully",
+    slug: "ecully",
+    department: "Rhône",
+    departmentCode: "69",
+    region: "Auvergne-Rhône-Alpes",
+    regionSlug: "auvergne-rhone-alpes",
+    population: "18 000",
+    description: "HD Connect Écully : sécurité haut de gamme. Protection campus EM Lyon, propriétés de prestige et entreprises. Vidéosurveillance discrète.",
+    neighborhoods: ["Centre-Ville", "Chalin", "Crépieux", "Sources", "Maisons Neuves"],
+    nearbyTowns: ["Lyon 5e", "Lyon 9e", "Dardilly", "Tassin-la-Demi-Lune", "Champagne-au-Mont-d'Or"]
+  },
+  {
+    name: "Tassin-la-Demi-Lune",
+    slug: "tassin-la-demi-lune",
+    department: "Rhône",
+    departmentCode: "69",
+    region: "Auvergne-Rhône-Alpes",
+    regionSlug: "auvergne-rhone-alpes",
+    population: "22 000",
+    description: "Expert sécurité Tassin-la-Demi-Lune par HD Connect. Protection villas, résidences et commerces. Vidéosurveillance périmétrique.",
+    neighborhoods: ["Centre-Ville", "Alaï", "Le Méridien", "Libération", "Victor Hugo"],
+    nearbyTowns: ["Lyon 5e", "Écully", "Francheville", "Craponne", "Charbonnières-les-Bains"]
+  },
+  {
+    name: "Rillieux-la-Pape",
+    slug: "rillieux-la-pape",
+    department: "Rhône",
+    departmentCode: "69",
+    region: "Auvergne-Rhône-Alpes",
+    regionSlug: "auvergne-rhone-alpes",
+    population: "31 000",
+    description: "Sécurité Rillieux-la-Pape par HD Connect. Protection zones commerciales, pavillons et copropriétés. Vidéosurveillance IA, alarmes.",
+    neighborhoods: ["Les Alagniers", "Ville Nouvelle", "Vancia", "Crépieux", "Velette"],
+    nearbyTowns: ["Caluire-et-Cuire", "Vaulx-en-Velin", "Sathonay-Camp", "Miribel", "Neyron"]
+  },
+  {
+    name: "Décines-Charpieu",
+    slug: "decines-charpieu",
+    department: "Rhône",
+    departmentCode: "69",
+    region: "Auvergne-Rhône-Alpes",
+    regionSlug: "auvergne-rhone-alpes",
+    population: "28 000",
+    description: "HD Connect Décines-Charpieu : sécurité Groupama Stadium OL. Protection événementiel, commerces et résidences. Vidéosurveillance HD.",
+    neighborhoods: ["Centre-Ville", "Charpieu", "Montaberlet", "Le Prainet", "Jean Macé"],
+    nearbyTowns: ["Villeurbanne", "Vaulx-en-Velin", "Meyzieu", "Chassieu", "Bron"]
+  },
+  {
+    name: "Meyzieu",
+    slug: "meyzieu",
+    department: "Rhône",
+    departmentCode: "69",
+    region: "Auvergne-Rhône-Alpes",
+    regionSlug: "auvergne-rhone-alpes",
+    population: "34 000",
+    description: "Expert sécurité Meyzieu par HD Connect. Protection zones industrielles, Grand Large et résidences. Alarmes certifiées, vidéosurveillance.",
+    neighborhoods: ["Centre-Ville", "Les Plantées", "Le Grand Large", "Mathiolan", "Les Servizières"],
+    nearbyTowns: ["Décines-Charpieu", "Jonage", "Pusignan", "Chassieu", "Genas"]
+  }
+];
+
+// ===== BANLIEUES MARSEILLE =====
+const marseilleSuburbs: CityData[] = [
+  {
+    name: "La Seyne-sur-Mer",
+    slug: "la-seyne-sur-mer",
+    department: "Var",
+    departmentCode: "83",
+    region: "Provence-Alpes-Côte d'Azur",
+    regionSlug: "provence-alpes-cote-d-azur",
+    population: "65 000",
+    description: "HD Connect La Seyne-sur-Mer : sécurité chantiers navals et résidences. Protection port, commerces et copropriétés. Caméras anti-corrosion.",
+    neighborhoods: ["Centre-Ville", "Tamaris", "Les Sablettes", "Berthe", "Mar Vivo"],
+    nearbyTowns: ["Toulon", "Six-Fours-les-Plages", "Ollioules", "Saint-Mandrier-sur-Mer", "La Garde"]
+  },
+  {
+    name: "Six-Fours-les-Plages",
+    slug: "six-fours-les-plages",
+    department: "Var",
+    departmentCode: "83",
+    region: "Provence-Alpes-Côte d'Azur",
+    regionSlug: "provence-alpes-cote-d-azur",
+    population: "36 000",
+    description: "Expert sécurité Six-Fours-les-Plages par HD Connect. Protection villas, commerces balnéaires et résidences. Vidéosurveillance résistante sel.",
+    neighborhoods: ["Centre-Ville", "Le Brusc", "Reynier", "Les Lônes", "La Reppe"],
+    nearbyTowns: ["La Seyne-sur-Mer", "Sanary-sur-Mer", "Ollioules", "Toulon", "Bandol"]
+  },
+  {
+    name: "La Penne-sur-Huveaune",
+    slug: "la-penne-sur-huveaune",
+    department: "Bouches-du-Rhône",
+    departmentCode: "13",
+    region: "Provence-Alpes-Côte d'Azur",
+    regionSlug: "provence-alpes-cote-d-azur",
+    population: "6 000",
+    description: "Sécurité La Penne-sur-Huveaune par HD Connect. Protection résidences et commerces. Vidéosurveillance, alarmes connectées.",
+    neighborhoods: ["Centre-Ville", "Les Music", "La Valentine"],
+    nearbyTowns: ["Marseille 11e", "Aubagne", "La Bouilladisse", "Roquevaire", "Gémenos"]
+  },
+  {
+    name: "Allauch",
+    slug: "allauch",
+    department: "Bouches-du-Rhône",
+    departmentCode: "13",
+    region: "Provence-Alpes-Côte d'Azur",
+    regionSlug: "provence-alpes-cote-d-azur",
+    population: "21 000",
+    description: "HD Connect Allauch : sécurité village provençal. Protection villas, bastides et commerces. Vidéosurveillance discrète, alarmes certifiées.",
+    neighborhoods: ["Village", "La Pounche", "Fontvieille", "Enco de Botte", "Logis Neuf"],
+    nearbyTowns: ["Marseille 12e", "Marseille 13e", "Plan-de-Cuques", "Aubagne", "La Bouilladisse"]
+  },
+  {
+    name: "Plan-de-Cuques",
+    slug: "plan-de-cuques",
+    department: "Bouches-du-Rhône",
+    departmentCode: "13",
+    region: "Provence-Alpes-Côte d'Azur",
+    regionSlug: "provence-alpes-cote-d-azur",
+    population: "11 000",
+    description: "Expert sécurité Plan-de-Cuques par HD Connect. Protection résidences pavillonnaires et commerces. Vidéosurveillance, alarmes sans fil.",
+    neighborhoods: ["Centre-Ville", "Beausoleil", "Les Music", "La Parade"],
+    nearbyTowns: ["Marseille 13e", "Allauch", "Marseille 12e", "Mimet", "Simiane-Collongue"]
+  },
+  {
+    name: "Cassis",
+    slug: "cassis",
+    department: "Bouches-du-Rhône",
+    departmentCode: "13",
+    region: "Provence-Alpes-Côte d'Azur",
+    regionSlug: "provence-alpes-cote-d-azur",
+    population: "7 500",
+    description: "Sécurité Cassis par HD Connect. Protection villas de luxe, port et commerces. Vidéosurveillance haut de gamme, discrétion garantie.",
+    neighborhoods: ["Port", "Village", "Bestouan", "Les Janots", "La Certiole"],
+    nearbyTowns: ["Marseille 9e", "La Ciotat", "Roquefort-la-Bédoule", "Carnoux-en-Provence", "Gémenos"]
+  },
+  {
+    name: "Carnoux-en-Provence",
+    slug: "carnoux-en-provence",
+    department: "Bouches-du-Rhône",
+    departmentCode: "13",
+    region: "Provence-Alpes-Côte d'Azur",
+    regionSlug: "provence-alpes-cote-d-azur",
+    population: "7 000",
+    description: "HD Connect Carnoux-en-Provence : sécurité résidentielle provençale. Protection villas et commerces. Alarmes, vidéosurveillance périmétrique.",
+    neighborhoods: ["Centre-Ville", "La Crémade", "Les Music"],
+    nearbyTowns: ["Cassis", "Roquefort-la-Bédoule", "Aubagne", "La Ciotat", "Gémenos"]
+  }
+];
+
+// ===== VILLES MANQUANTES IDF PETITE COURONNE =====
+const additionalIdfCities: CityData[] = [
+  {
+    name: "Pantin",
+    slug: "pantin",
+    department: "Seine-Saint-Denis",
+    departmentCode: "93",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "55 000",
+    description: "HD Connect Pantin : sécurité quartiers créatifs et entreprises. Protection studios, commerces et résidences. Vidéosurveillance IA, alarmes.",
+    neighborhoods: ["Quatre Chemins", "Centre-Ville", "Église", "Petit Pantin", "Hoche"],
+    nearbyTowns: ["Le Pré-Saint-Gervais", "Les Lilas", "Aubervilliers", "Bobigny", "Romainville"]
+  },
+  {
+    name: "Noisy-le-Grand",
+    slug: "noisy-le-grand",
+    department: "Seine-Saint-Denis",
+    departmentCode: "93",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "67 000",
+    description: "Expert sécurité Noisy-le-Grand par HD Connect. Protection Mont d'Est, Champy et zones commerciales. Vidéosurveillance HD, alarmes certifiées.",
+    neighborhoods: ["Mont d'Est", "Champy", "Pavé Neuf", "Centre-Ville", "Hauts Bâtons"],
+    nearbyTowns: ["Gournay-sur-Marne", "Champs-sur-Marne", "Villiers-sur-Marne", "Bry-sur-Marne", "Neuilly-sur-Marne"]
+  },
+  {
+    name: "Rosny-sous-Bois",
+    slug: "rosny-sous-bois",
+    department: "Seine-Saint-Denis",
+    departmentCode: "93",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "45 000",
+    description: "Sécurité Rosny-sous-Bois par HD Connect. Protection Rosny 2, commerces et résidences. Vidéosurveillance, alarmes anti-intrusion.",
+    neighborhoods: ["Centre-Ville", "Bois Perrier", "La Boissière", "Nanteuil", "Général Leclerc"],
+    nearbyTowns: ["Montreuil", "Fontenay-sous-Bois", "Noisy-le-Sec", "Villemomble", "Neuilly-Plaisance"]
+  },
+  {
+    name: "Livry-Gargan",
+    slug: "livry-gargan",
+    department: "Seine-Saint-Denis",
+    departmentCode: "93",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "45 000",
+    description: "HD Connect Livry-Gargan : sécurité zones pavillonnaires et commerces. Vidéosurveillance, alarmes connectées, contrôle d'accès.",
+    neighborhoods: ["Centre-Ville", "Gargan", "Danton", "Poudrerie", "Jacob"],
+    nearbyTowns: ["Clichy-sous-Bois", "Montfermeil", "Sevran", "Les Pavillons-sous-Bois", "Vaujours"]
+  },
+  {
+    name: "Clichy-sous-Bois",
+    slug: "clichy-sous-bois",
+    department: "Seine-Saint-Denis",
+    departmentCode: "93",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "31 000",
+    description: "Expert sécurité Clichy-sous-Bois par HD Connect. Protection zones en rénovation, commerces et résidences. Vidéosurveillance renforcée.",
+    neighborhoods: ["Centre-Ville", "Chêne Pointu", "Le Haut Clichy", "Forestière", "Bas Clichy"],
+    nearbyTowns: ["Montfermeil", "Livry-Gargan", "Gagny", "Le Raincy", "Coubron"]
+  },
+  {
+    name: "Gagny",
+    slug: "gagny",
+    department: "Seine-Saint-Denis",
+    departmentCode: "93",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "40 000",
+    description: "Sécurité Gagny par HD Connect. Protection zones pavillonnaires, commerces et résidences. Alarmes, vidéosurveillance périmétrique.",
+    neighborhoods: ["Centre-Ville", "Les Abbesses", "Maison Blanche", "La Ferme", "Chenay"],
+    nearbyTowns: ["Villemomble", "Montfermeil", "Neuilly-sur-Marne", "Le Raincy", "Clichy-sous-Bois"]
+  },
+  {
+    name: "Fontenay-sous-Bois",
+    slug: "fontenay-sous-bois",
+    department: "Val-de-Marne",
+    departmentCode: "94",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "53 000",
+    description: "HD Connect Fontenay-sous-Bois : sécurité résidences et commerces. Protection Val de Fontenay, pavillons et copropriétés. Vidéosurveillance.",
+    neighborhoods: ["Val de Fontenay", "Centre-Ville", "Grands Pêchers", "Redoute", "Bois Cadet"],
+    nearbyTowns: ["Vincennes", "Montreuil", "Nogent-sur-Marne", "Rosny-sous-Bois", "Neuilly-Plaisance"]
+  },
+  {
+    name: "Le Kremlin-Bicêtre",
+    slug: "le-kremlin-bicetre",
+    department: "Val-de-Marne",
+    departmentCode: "94",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "26 000",
+    description: "Expert sécurité Le Kremlin-Bicêtre par HD Connect. Protection hôpitaux, commerces et résidences. Vidéosurveillance, alarmes certifiées.",
+    neighborhoods: ["Centre-Ville", "Hôpital", "Liberté", "Fontainebleau", "Alouettes"],
+    nearbyTowns: ["Paris 13e", "Gentilly", "Arcueil", "Villejuif", "Ivry-sur-Seine"]
+  },
+  {
+    name: "Villejuif",
+    slug: "villejuif",
+    department: "Val-de-Marne",
+    departmentCode: "94",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "58 000",
+    description: "Sécurité Villejuif par HD Connect. Protection Institut Gustave Roussy, commerces et résidences. Vidéosurveillance HD, alarmes.",
+    neighborhoods: ["Centre-Ville", "Louis Aragon", "Hautes Bruyères", "Léon Blum", "Pasteur"],
+    nearbyTowns: ["Le Kremlin-Bicêtre", "Arcueil", "Cachan", "L'Haÿ-les-Roses", "Vitry-sur-Seine"]
+  },
+  {
+    name: "Thiais",
+    slug: "thiais",
+    department: "Val-de-Marne",
+    departmentCode: "94",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "30 000",
+    description: "HD Connect Thiais : sécurité Belle Épine et zones commerciales. Protection grandes surfaces, entreprises et résidences. Vidéosurveillance IA.",
+    neighborhoods: ["Centre-Ville", "Belle Épine", "Moulin Vert", "Grignon", "Le Pavé"],
+    nearbyTowns: ["Orly", "Choisy-le-Roi", "Vitry-sur-Seine", "Chevilly-Larue", "Rungis"]
+  },
+  {
+    name: "Choisy-le-Roi",
+    slug: "choisy-le-roi",
+    department: "Val-de-Marne",
+    departmentCode: "94",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "45 000",
+    description: "Expert sécurité Choisy-le-Roi par HD Connect. Protection bords de Seine, commerces et résidences. Vidéosurveillance, alarmes certifiées.",
+    neighborhoods: ["Centre-Ville", "Gondoles", "Navigateurs", "Lugo", "Briand"],
+    nearbyTowns: ["Vitry-sur-Seine", "Thiais", "Orly", "Villeneuve-le-Roi", "Créteil"]
+  },
+  {
+    name: "Alfortville",
+    slug: "alfortville",
+    department: "Val-de-Marne",
+    departmentCode: "94",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "45 000",
+    description: "Sécurité Alfortville par HD Connect. Protection bords de Marne, commerces et résidences. Vidéosurveillance, alarmes anti-intrusion.",
+    neighborhoods: ["Centre-Ville", "Grand Ensemble", "Mairie", "Toulon", "Port à l'Anglais"],
+    nearbyTowns: ["Maisons-Alfort", "Ivry-sur-Seine", "Vitry-sur-Seine", "Charenton-le-Pont", "Créteil"]
+  },
+  {
+    name: "Clamart",
+    slug: "clamart",
+    department: "Hauts-de-Seine",
+    departmentCode: "92",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "53 000",
+    description: "HD Connect Clamart : sécurité résidentielle et commerciale. Protection pavillons, copropriétés et entreprises. Vidéosurveillance, alarmes.",
+    neighborhoods: ["Centre-Ville", "Petit Clamart", "Percy", "Plaine", "Jardin Parisien"],
+    nearbyTowns: ["Meudon", "Issy-les-Moulineaux", "Châtillon", "Fontenay-aux-Roses", "Vanves"]
+  },
+  {
+    name: "Meudon",
+    slug: "meudon",
+    department: "Hauts-de-Seine",
+    departmentCode: "92",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "46 000",
+    description: "Expert sécurité Meudon par HD Connect. Protection observatoire, propriétés de prestige et commerces. Vidéosurveillance discrète.",
+    neighborhoods: ["Meudon-la-Forêt", "Bellevue", "Centre-Ville", "Val Fleury", "Trivaux"],
+    nearbyTowns: ["Sèvres", "Clamart", "Issy-les-Moulineaux", "Boulogne-Billancourt", "Chaville"]
+  },
+  {
+    name: "Sèvres",
+    slug: "sevres",
+    department: "Hauts-de-Seine",
+    departmentCode: "92",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "23 000",
+    description: "Sécurité Sèvres par HD Connect. Protection Manufacture, résidences de standing et commerces. Vidéosurveillance, alarmes certifiées.",
+    neighborhoods: ["Centre-Ville", "Brancas", "Brimborion", "Croix Bosset", "Abbaye"],
+    nearbyTowns: ["Meudon", "Saint-Cloud", "Boulogne-Billancourt", "Chaville", "Ville-d'Avray"]
+  },
+  {
+    name: "Saint-Cloud",
+    slug: "saint-cloud",
+    department: "Hauts-de-Seine",
+    departmentCode: "92",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "30 000",
+    description: "HD Connect Saint-Cloud : sécurité haut de gamme. Protection propriétés d'exception, commerces et entreprises. Vidéosurveillance discrète.",
+    neighborhoods: ["Centre-Ville", "Coteaux", "Village", "Montretout", "Parc"],
+    nearbyTowns: ["Boulogne-Billancourt", "Suresnes", "Garches", "Marnes-la-Coquette", "Sèvres"]
+  },
+  {
+    name: "Suresnes",
+    slug: "suresnes",
+    department: "Hauts-de-Seine",
+    departmentCode: "92",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "49 000",
+    description: "Expert sécurité Suresnes par HD Connect. Protection Mont Valérien, entreprises et résidences. Vidéosurveillance HD, contrôle d'accès.",
+    neighborhoods: ["Centre-Ville", "Mont Valérien", "Caron", "Raguidelles", "Belvédère"],
+    nearbyTowns: ["Puteaux", "Nanterre", "Rueil-Malmaison", "Saint-Cloud", "Boulogne-Billancourt"]
+  },
+  {
+    name: "Puteaux",
+    slug: "puteaux",
+    department: "Hauts-de-Seine",
+    departmentCode: "92",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "45 000",
+    description: "Sécurité Puteaux et La Défense par HD Connect. Protection tours de bureaux, commerces et résidences de standing. Vidéosurveillance IA.",
+    neighborhoods: ["La Défense", "Centre-Ville", "Ile de Puteaux", "Vieille Église", "Bergères"],
+    nearbyTowns: ["Courbevoie", "Nanterre", "Neuilly-sur-Seine", "Suresnes", "La Garenne-Colombes"]
+  },
+  {
+    name: "Gennevilliers",
+    slug: "gennevilliers",
+    department: "Hauts-de-Seine",
+    departmentCode: "92",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "48 000",
+    description: "HD Connect Gennevilliers : sécurité zones portuaires et industrielles. Protection entrepôts, commerces et résidences. Vidéosurveillance HD.",
+    neighborhoods: ["Centre-Ville", "Village", "Luth", "Grésillons", "Chandon"],
+    nearbyTowns: ["Asnières-sur-Seine", "Villeneuve-la-Garenne", "Colombes", "Clichy", "Épinay-sur-Seine"]
+  },
+  {
+    name: "Antony",
+    slug: "antony",
+    department: "Hauts-de-Seine",
+    departmentCode: "92",
+    region: "Île-de-France",
+    regionSlug: "ile-de-france",
+    population: "63 000",
+    description: "Expert sécurité Antony par HD Connect. Protection parc de Sceaux, résidences et commerces. Vidéosurveillance, alarmes certifiées NF&A2P.",
+    neighborhoods: ["Centre-Ville", "Croix de Berny", "Antonypole", "Fontaine Michalon", "Pajeaud"],
+    nearbyTowns: ["Massy", "Bourg-la-Reine", "Sceaux", "Châtenay-Malabry", "Fresnes"]
+  }
+];
+
 export const getCityBySlug = (slug: string): CityData | undefined => {
-  return citiesData.find(city => city.slug === slug);
+  return [...citiesData, ...lyonSuburbs, ...marseilleSuburbs, ...additionalIdfCities].find(city => city.slug === slug);
 };
 
 export const getCitiesByRegion = (region: string): CityData[] => {
-  return citiesData.filter(city => city.region === region);
+  return [...citiesData, ...lyonSuburbs, ...marseilleSuburbs, ...additionalIdfCities].filter(city => city.region === region);
 };
 
 export const getCitiesByRegionSlug = (regionSlug: string): CityData[] => {
-  return citiesData.filter(city => city.regionSlug === regionSlug);
+  return [...citiesData, ...lyonSuburbs, ...marseilleSuburbs, ...additionalIdfCities].filter(city => city.regionSlug === regionSlug);
 };
 
 export const getCitiesByDepartment = (departmentCode: string): CityData[] => {
-  return citiesData.filter(city => city.departmentCode === departmentCode);
+  return [...citiesData, ...lyonSuburbs, ...marseilleSuburbs, ...additionalIdfCities].filter(city => city.departmentCode === departmentCode);
 };
 
 export const getAllCitySlugs = (): string[] => {
-  return citiesData.map(city => city.slug);
+  return [...citiesData, ...lyonSuburbs, ...marseilleSuburbs, ...additionalIdfCities].map(city => city.slug);
 };
+
+// Export all cities combined
+export const allCitiesData: CityData[] = [...citiesData, ...lyonSuburbs, ...marseilleSuburbs, ...additionalIdfCities];
