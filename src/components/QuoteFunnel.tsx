@@ -169,7 +169,7 @@ const QuoteFunnel = () => {
           name: finalData.clientInfo.name,
           email: finalData.clientInfo.email,
           phone: finalData.clientInfo.phone,
-          request_type: finalData.requestType,
+           request_type: finalData.requestType === 'intervention' ? 'emergency' : 'quote',
           message: JSON.stringify({
             address: finalData.clientInfo.address,
             timeline: finalData.clientInfo.timeline,

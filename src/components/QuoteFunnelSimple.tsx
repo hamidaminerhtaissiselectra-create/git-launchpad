@@ -205,7 +205,7 @@ const QuoteFunnelSimple = () => {
           name: formData.name,
           email: formData.email,
           phone: formData.phone,
-          request_type: requestType,
+           request_type: requestType === 'intervention' ? 'emergency' : 'quote',
           message: detailedMessage,
           status: 'new'
         }]);
