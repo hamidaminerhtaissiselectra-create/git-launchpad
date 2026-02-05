@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- ========================================== -->
+  <!-- SITEMAP HD CONNECT                         -->
+  <!-- Dernière mise à jour: 05 Février 2026     -->
+  <!-- Total URLs: 252 (125 villes incluses)      -->
+  <!-- ==========================================  -->
+
+  <!-- ========================================== -->
+  <!-- NIVEAU 0 - PAGE PRINCIPALE                -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://hdconnect.fr/</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- ========================================== -->
+  <!-- NIVEAU 1 - HUB SERVICES (Page Pivot)       -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://hdconnect.fr/services</loc>
+    <lastmod>2026-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  
+  <!-- ========================================== -->
+  <!-- NIVEAU 2 - PAGES SERVICES (11 pages)      -->
+  <!-- ========================================== -->
+  <!-- Services principaux (8) -->
+  <url>
+    <loc>https://hdconnect.fr/services/videosurveillance</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/services/alarme</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/services/controle-acces</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/services/domotique</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/services/reseau</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/services/maintenance</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/services/antenne-satellite</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/services/portails-parking</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Prestations transversales (3) -->
+  <url>
+    <loc>https://hdconnect.fr/services/installation</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/services/depannage</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/services/location</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ========================================== -->
+  <!-- NIVEAU 2 - HUB GÉOGRAPHIQUE               -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ========================================== -->
+  <!-- NIVEAU 3 - PAGES RÉGIONS (13 régions)     -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/ile-de-france</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/auvergne-rhone-alpes</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/provence-alpes-cote-d-azur</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/nouvelle-aquitaine</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/occitanie</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/hauts-de-france</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/grand-est</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/pays-de-la-loire</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/bretagne</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/normandie</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/bourgogne-franche-comte</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/centre-val-de-loire</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/zones-intervention/corse</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ========================================== -->
+  <!-- NIVEAU 3.5 - PAGES DÉPARTEMENTS (14)      -->
+  <!-- ========================================== -->
+  <!-- Île-de-France (8 départements) -->
+  <url><loc>https://hdconnect.fr/departements/paris-75</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/departements/hauts-de-seine-92</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/departements/seine-saint-denis-93</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/departements/val-de-marne-94</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/departements/val-d-oise-95</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/departements/yvelines-78</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/departements/essonne-91</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/departements/seine-et-marne-77</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <!-- Départements clés France -->
+  <url><loc>https://hdconnect.fr/departements/rhone-69</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/departements/bouches-du-rhone-13</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/departements/nord-59</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/departements/gironde-33</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/departements/haute-garonne-31</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/departements/alpes-maritimes-06</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- NIVEAU 4 - PAGES VILLES (32 villes)       -->
+  <!-- ========================================== -->
+  
+  <!-- Paris - Hub principal -->
+  <url>
+    <loc>https://hdconnect.fr/villes/paris</loc>
+    <lastmod>2026-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <!-- ========================================== -->
+  <!-- NIVEAU 5 - ARRONDISSEMENTS PARIS (20)     -->
+  <!-- ========================================== -->
+  <url><loc>https://hdconnect.fr/paris/paris-1er-louvre</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-2e-bourse</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-3e-temple</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-4e-hotel-de-ville</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-5e-pantheon</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-6e-luxembourg</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-7e-palais-bourbon</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-8e-elysee</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-9e-opera</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-10e-enclos-saint-laurent</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-11e-popincourt</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-12e-reuilly</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-13e-gobelins</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-14e-observatoire</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-15e-vaugirard</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-16e-passy</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-17e-batignolles-monceau</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-18e-butte-montmartre</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-19e-buttes-chaumont</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/paris/paris-20e-menilmontant</loc><lastmod>2026-01-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Île-de-France (5 autres villes) -->
+  <url>
+    <loc>https://hdconnect.fr/villes/creteil</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/vitry-sur-seine</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/saint-maur-des-fosses</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/boulogne-billancourt</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/versailles</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Villes IDF Supplémentaires (18 villes) -->
+  <url><loc>https://hdconnect.fr/villes/saint-denis</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/montreuil</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/argenteuil</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/nanterre</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/courbevoie</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/neuilly-sur-seine</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/issy-les-moulineaux</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/levallois-perret</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/vincennes</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/champigny-sur-marne</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/ivry-sur-seine</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/maisons-alfort</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/meaux</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/evry-courcouronnes</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/massy</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/cergy</loc><lastmod>2026-01-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Auvergne-Rhône-Alpes (3 villes) -->
+  <url>
+    <loc>https://hdconnect.fr/villes/lyon</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/grenoble</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/saint-etienne</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- PACA (4 villes) -->
+  <url>
+    <loc>https://hdconnect.fr/villes/marseille</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/nice</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/cannes</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/aix-en-provence</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Nouvelle-Aquitaine (2 villes) -->
+  <url>
+    <loc>https://hdconnect.fr/villes/bordeaux</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/la-rochelle</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Occitanie (2 villes) -->
+  <url>
+    <loc>https://hdconnect.fr/villes/toulouse</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/montpellier</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- Hauts-de-France (2 villes) -->
+  <url>
+    <loc>https://hdconnect.fr/villes/lille</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/amiens</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Grand Est (3 villes) -->
+  <url>
+    <loc>https://hdconnect.fr/villes/strasbourg</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/nancy</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/metz</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Pays de la Loire (2 villes) -->
+  <url>
+    <loc>https://hdconnect.fr/villes/nantes</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/angers</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Bretagne (2 villes) -->
+  <url>
+    <loc>https://hdconnect.fr/villes/rennes</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/brest</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Normandie (2 villes) -->
+  <url>
+    <loc>https://hdconnect.fr/villes/rouen</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/le-havre</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Bourgogne-Franche-Comté (3 villes) -->
+  <url><loc>https://hdconnect.fr/villes/dijon</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/besancon</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/chalon-sur-saone</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Centre-Val de Loire (2 villes) -->
+  <url><loc>https://hdconnect.fr/villes/orleans</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/tours</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- ========================================== -->
+  <!-- NOUVELLES VILLES AJOUTÉES (35 villes)     -->
+  <!-- ========================================== -->
+  
+  <!-- Grand Est supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/reims</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/mulhouse</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/colmar</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/troyes</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Hauts-de-France supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/roubaix</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/tourcoing</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/dunkerque</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- PACA supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/toulon</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/antibes</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/avignon</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Auvergne-Rhône-Alpes supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/villeurbanne</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/clermont-ferrand</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/annecy</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/chambery</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Occitanie supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/nimes</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/perpignan</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/beziers</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Nouvelle-Aquitaine supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/limoges</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/poitiers</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/pau</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/bayonne</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Pays de la Loire supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/le-mans</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/saint-nazaire</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Bretagne supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/lorient</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/vannes</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/quimper</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Normandie supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/caen</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/cherbourg-en-cotentin</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Corse -->
+  <url><loc>https://hdconnect.fr/villes/ajaccio</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/bastia</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- ========================================== -->
+  <!-- ZONES SENSIBLES - CAMBRIOLAGES (40 villes) -->
+  <!-- ========================================== -->
+  
+  <!-- Seine-Saint-Denis (93) - Zone critique -->
+  <url><loc>https://hdconnect.fr/villes/bobigny</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/aubervilliers</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/aulnay-sous-bois</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/drancy</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/bondy</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/epinay-sur-seine</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/sevran</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/la-courneuve</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  
+  <!-- Essonne (91) - Zone sensible -->
+  <url><loc>https://hdconnect.fr/villes/corbeil-essonnes</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/grigny</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/savigny-sur-orge</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Val-d'Oise (95) - Zone sensible -->
+  <url><loc>https://hdconnect.fr/villes/sarcelles</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/garges-les-gonesse</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/goussainville</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Bouches-du-Rhône (13) - PACA critique -->
+  <url><loc>https://hdconnect.fr/villes/aubagne</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/vitrolles</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/marignane</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/la-ciotat</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/martigues</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Alpes-Maritimes (06) - Côte d'Azur critique -->
+  <url><loc>https://hdconnect.fr/villes/grasse</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/cagnes-sur-mer</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/menton</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Var (83) - Zone touristique sensible -->
+  <url><loc>https://hdconnect.fr/villes/frejus</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/hyeres</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/draguignan</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Nord (59) - Zone sensible -->
+  <url><loc>https://hdconnect.fr/villes/villeneuve-d-ascq</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Rhône (69) - Agglomération lyonnaise -->
+  <url><loc>https://hdconnect.fr/villes/venissieux</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/vaulx-en-velin</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/saint-priest</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Gironde (33) - Bordeaux Métropole -->
+  <url><loc>https://hdconnect.fr/villes/merignac</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/pessac</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/talence</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Haute-Garonne (31) - Toulouse Métropole -->
+  <url><loc>https://hdconnect.fr/villes/blagnac</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/colomiers</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- ========================================== -->
+  <!-- BLOG (7 pages)                            -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://hdconnect.fr/blog</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/blog/comment-choisir-camera-surveillance-2025</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/blog/alarme-maison-connectee-avantages</loc>
+    <lastmod>2025-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/blog/rgpd-videosurveillance-obligations-2025</loc>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/blog/controle-acces-biometrique-entreprise</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/blog/maison-connectee-securite-domotique</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/blog/maintenance-systeme-securite-importance</loc>
+    <lastmod>2024-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ========================================== -->
+  <!-- PAGES LÉGALES                             -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://hdconnect.fr/mentions-legales</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/politique-confidentialite</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <!-- ========================================== -->
+  <!-- NIVEAU 5 - PAGES VILLE + SERVICE (SEO)    -->
+  <!-- URLs combinées pour le référencement local -->
+  <!-- Priorité: Villes à forte criminalité + services clés -->
+  <!-- ========================================== -->
+  <!-- PARIS - Services combinés -->
+  <url>
+    <loc>https://hdconnect.fr/villes/paris/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/paris/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/paris/controle-acces</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/paris/domotique</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- LYON - Services combinés -->
+  <url>
+    <loc>https://hdconnect.fr/villes/lyon/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/lyon/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/lyon/controle-acces</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- MARSEILLE - Services combinés -->
+  <url>
+    <loc>https://hdconnect.fr/villes/marseille/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/marseille/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/marseille/controle-acces</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- SAINT-DENIS 93 - Zone sensible prioritaire -->
+  <url>
+    <loc>https://hdconnect.fr/villes/saint-denis/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/saint-denis/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/saint-denis/controle-acces</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- BOBIGNY 93 - Zone sensible -->
+  <url>
+    <loc>https://hdconnect.fr/villes/bobigny/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/bobigny/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- NICE 06 - Zone touristique sensible -->
+  <url>
+    <loc>https://hdconnect.fr/villes/nice/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/nice/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- TOULOUSE - Grande métropole -->
+  <url>
+    <loc>https://hdconnect.fr/villes/toulouse/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/toulouse/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- BORDEAUX - Grande métropole -->
+  <url>
+    <loc>https://hdconnect.fr/villes/bordeaux/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/bordeaux/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- NANTES - Grande métropole -->
+  <url>
+    <loc>https://hdconnect.fr/villes/nantes/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/nantes/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- LILLE 59 - Zone Nord sensible -->
+  <url>
+    <loc>https://hdconnect.fr/villes/lille/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/lille/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- STRASBOURG - Grande métropole -->
+  <url>
+    <loc>https://hdconnect.fr/villes/strasbourg/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/strasbourg/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- VENISSIEUX 69 - Zone sensible Lyon -->
+  <url>
+    <loc>https://hdconnect.fr/villes/venissieux/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/venissieux/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- AUBERVILLIERS 93 - Zone sensible -->
+  <url>
+    <loc>https://hdconnect.fr/villes/aubervilliers/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/aubervilliers/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- MONTREUIL 93 - Zone sensible -->
+  <url>
+    <loc>https://hdconnect.fr/villes/montreuil/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/montreuil/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- CRETEIL 94 - Préfecture Val-de-Marne -->
+  <url>
+    <loc>https://hdconnect.fr/villes/creteil/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/creteil/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- VERSAILLES 78 - Préfecture Yvelines -->
+  <url>
+    <loc>https://hdconnect.fr/villes/versailles/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/versailles/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- BOULOGNE-BILLANCOURT 92 - Grande ville Ouest Paris -->
+  <url>
+    <loc>https://hdconnect.fr/villes/boulogne-billancourt/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/boulogne-billancourt/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- AIX-EN-PROVENCE 13 - Ville PACA -->
+  <url>
+    <loc>https://hdconnect.fr/villes/aix-en-provence/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/aix-en-provence/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- NOUVELLES VILLES HAUTS-DE-SEINE 92 -->
+  <url><loc>https://hdconnect.fr/villes/courbevoie</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/nanterre</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/asnieres-sur-seine</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/colombes</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/rueil-malmaison</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/levallois-perret</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  
+  <!-- Pages Ville+Service pour les nouvelles villes (92) -->
+  <url><loc>https://hdconnect.fr/villes/courbevoie/videosurveillance</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/courbevoie/alarme</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/nanterre/videosurveillance</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/nanterre/alarme</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/asnieres-sur-seine/videosurveillance</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/asnieres-sur-seine/alarme</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/colombes/videosurveillance</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/colombes/alarme</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/rueil-malmaison/videosurveillance</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/rueil-malmaison/alarme</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/levallois-perret/videosurveillance</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/levallois-perret/alarme</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Pages Ville+Service Supplémentaires pour SEO Local (Top 3) -->
+  <url><loc>https://hdconnect.fr/villes/boulogne-billancourt/controle-acces</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/boulogne-billancourt/reseau</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/nanterre/controle-acces</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/nanterre/maintenance</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/courbevoie/controle-acces</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/courbevoie/domotique</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/asnieres-sur-seine/controle-acces</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/colombes/maintenance</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/rueil-malmaison/domotique</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/levallois-perret/controle-acces</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>
