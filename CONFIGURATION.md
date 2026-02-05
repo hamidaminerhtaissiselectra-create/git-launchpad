@@ -11,11 +11,14 @@
 ### ✅ Déjà Configuré
 - [x] Variables d'environnement Supabase
 - [x] Tables base de données
-- [x] Sitemap.xml (242 URLs)
+ - [x] Sitemap.xml (310 URLs)
 - [x] robots.txt
 - [x] Meta tags SEO
 - [x] Pages légales (Mentions, RGPD, CGV)
 - [x] Schema Speakable (IA/vocale)
+ - [x] Pages arrondissements Lyon (9)
+ - [x] Pages arrondissements Marseille (12 secteurs)
+ - [x] CityLocalContent anti-duplicate
 
 ### ⏳ À Configurer par le Client
 - [ ] Compte Formspree (ID: mwpzrqyl)
@@ -130,13 +133,15 @@ Remplacer `G-XXXXXXXXXX` par votre ID réel.
 2. Ajouter : `https://hdconnect.fr/sitemap.xml`
 3. Cliquer **Envoyer**
 
-Le sitemap contient **242 URLs** incluant :
+ Le sitemap contient **310 URLs** incluant :
 - 11 pages services
 - 13 pages régions
 - 8+ pages départements
-- 125 pages villes
+ - 150+ pages villes
 - 62+ pages ville+service prioritaires
 - 20 arrondissements Paris
+ - 9 arrondissements Lyon
+ - 12 secteurs Marseille
 - 10 articles blog
 
 ### 4.3 Demander l'Indexation
@@ -224,3 +229,18 @@ En cas de problème :
 ---
 
 **Document mis à jour le 05 Février 2026**
+ 
+ ---
+ 
+ ## 📈 Prochaines Étapes
+ 
+ ### Reporté (À finaliser en fin de projet)
+ - [ ] Google Analytics 4 (ID de mesure)
+ - [ ] Soumission sitemap Search Console
+ - [ ] Création premier admin
+ 
+ ### Fonctionnalités futures
+ - [ ] Espace client sécurisé
+ - [ ] Système de rendez-vous
+ - [ ] Intégration Stripe
+ - [ ] Chat en direct
