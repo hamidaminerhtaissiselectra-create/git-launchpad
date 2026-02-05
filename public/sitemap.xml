@@ -3,7 +3,7 @@
   <!-- ========================================== -->
   <!-- SITEMAP HD CONNECT                         -->
   <!-- Dernière mise à jour: 05 Février 2026     -->
-  <!-- Total URLs: 252 (125 villes incluses)      -->
+  <!-- Total URLs: 310 (150+ villes + arrondissements)      -->
   <!-- ==========================================  -->
 
   <!-- ========================================== -->
@@ -948,4 +948,93 @@
   <url><loc>https://hdconnect.fr/villes/colombes/maintenance</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://hdconnect.fr/villes/rueil-malmaison/domotique</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://hdconnect.fr/villes/levallois-perret/controle-acces</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   
+   <!-- ========================================== -->
+   <!-- NIVEAU 5 - ARRONDISSEMENTS LYON (9)       -->
+   <!-- ========================================== -->
+   <url>
+     <loc>https://hdconnect.fr/villes/lyon</loc>
+     <lastmod>2026-02-05</lastmod>
+     <changefreq>weekly</changefreq>
+     <priority>0.85</priority>
+   </url>
+   <url><loc>https://hdconnect.fr/lyon/lyon-1er-presquile</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/lyon/lyon-2e-confluence</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/lyon/lyon-3e-part-dieu</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/lyon/lyon-4e-croix-rousse</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/lyon/lyon-5e-vieux-lyon</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/lyon/lyon-6e-les-brotteaux</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/lyon/lyon-7e-guillotiere</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/lyon/lyon-8e-monplaisir</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/lyon/lyon-9e-vaise</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   
+   <!-- Banlieue lyonnaise (8 villes) -->
+   <url><loc>https://hdconnect.fr/villes/villeurbanne</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/villes/caluire-et-cuire</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/bron</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/venissieux</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/saint-priest</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/oullins</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/tassin-la-demi-lune</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/ecully</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   
+   <!-- ========================================== -->
+   <!-- NIVEAU 5 - ARRONDISSEMENTS MARSEILLE (16) -->
+   <!-- ========================================== -->
+   <url>
+     <loc>https://hdconnect.fr/villes/marseille</loc>
+     <lastmod>2026-02-05</lastmod>
+     <changefreq>weekly</changefreq>
+     <priority>0.85</priority>
+   </url>
+   <url><loc>https://hdconnect.fr/marseille/marseille-1er-2e</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/marseille/marseille-3e-4e</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/marseille/marseille-5e</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/marseille/marseille-6e</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/marseille/marseille-7e</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/marseille/marseille-8e</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/marseille/marseille-9e</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/marseille/marseille-10e</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/marseille/marseille-11e</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/marseille/marseille-12e</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/marseille/marseille-13e-14e</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/marseille/marseille-15e-16e</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   
+   <!-- Banlieue marseillaise (7 villes) -->
+   <url><loc>https://hdconnect.fr/villes/aubagne</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/martigues</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/la-ciotat</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/cassis</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/la-seyne-sur-mer</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/toulon</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/villes/hyeres</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   
+   <!-- ========================================== -->
+   <!-- NOUVELLES VILLES PETITE COURONNE (20+)    -->
+   <!-- ========================================== -->
+   <!-- Seine-Saint-Denis 93 -->
+   <url><loc>https://hdconnect.fr/villes/aubervilliers</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/villes/aulnay-sous-bois</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/villes/drancy</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/villes/noisy-le-grand</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/villes/pantin</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/villes/bondy</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/epinay-sur-seine</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/sevran</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <!-- Val-de-Marne 94 -->
+   <url><loc>https://hdconnect.fr/villes/fontenay-sous-bois</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/villes/villejuif</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/villes/choisy-le-roi</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/alfortville</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/le-kremlin-bicetre</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/cachan</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <!-- Hauts-de-Seine 92 -->
+   <url><loc>https://hdconnect.fr/villes/antony</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/villes/clamart</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+   <url><loc>https://hdconnect.fr/villes/meudon</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/montrouge</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/suresnes</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/gennevilliers</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/clichy</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+   <url><loc>https://hdconnect.fr/villes/puteaux</loc><lastmod>2026-02-05</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
 </urlset>

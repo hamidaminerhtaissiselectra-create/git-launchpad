@@ -1,6 +1,6 @@
 # 🔐 HD CONNECT - Documentation Complète & Unifiée
 
- > **Version:** 8.5 - Production Ready  
+  > **Version:** 9.0 - Production Ready  
  > **Dernière mise à jour:** 05 Février 2026  
  > **Statut:** ✅ 100% PRODUCTION-READY
 
@@ -43,7 +43,7 @@
 |----------|-------------|--------|
 | Site vitrine | Présenter les 11 services | ✅ Fait |
 | Génération de leads | Formulaire de devis intelligent | ✅ Fait |
-| SEO local | Référencement 250+ pages | ✅ Fait |
+ | SEO local | Référencement 310+ pages | ✅ Fait |
 | Animations premium | Micro-interactions globales | ✅ Fait |
 | Admin panel | Gestion des leads | ✅ Opérationnel |
 
@@ -225,6 +225,8 @@ NIVEAU 4 - VILLES (125 pages pivot)
 ├── /villes/paris                  → ParisPage.tsx (Hub arrondissements)
 ├── /villes/lyon
 ├── /villes/marseille
+ ├── /villes/villeurbanne
+ ├── /villes/caluire-et-cuire
 ├── /villes/toulouse
 ├── /villes/bordeaux
 ├── /villes/lille
@@ -248,6 +250,18 @@ NIVEAU 5 - ARRONDISSEMENTS PARIS (20 pages)
 ├── /paris/paris-2eme
 ├── /paris/paris-3eme
 └── ... (jusqu'au 20ème)
+ 
+ NIVEAU 5 - ARRONDISSEMENTS LYON (9 pages)
+ ├── /lyon/lyon-1er-presquile
+ ├── /lyon/lyon-2e-confluence
+ ├── /lyon/lyon-3e-part-dieu
+ └── ... (jusqu'au 9ème)
+ 
+ NIVEAU 5 - ARRONDISSEMENTS MARSEILLE (12 secteurs)
+ ├── /marseille/marseille-1er-2e
+ ├── /marseille/marseille-3e-4e
+ ├── /marseille/marseille-5e
+ └── ... (jusqu'au 15e-16e)
 
 BLOG (10 articles)
 ├── /blog                          → Blog.tsx (Hub)
@@ -533,15 +547,15 @@ Via les composants SEO :
 - `@type: BreadcrumbList` - Fil d'Ariane
 - `@type: Article` - Articles blog
 
-### Sitemap.xml (250+ URLs)
+ ### Sitemap.xml (310+ URLs)
 
 ```
 ├── Priority 1.0    → Accueil
 ├── Priority 0.9    → Hub Services + 8 services principaux
 ├── Priority 0.85   → 3 prestations + hub régions
 ├── Priority 0.8    → 13 régions + 8 départements IDF
-├── Priority 0.75   → 125 villes + ville+service (métropoles)
-├── Priority 0.7    → 20 arrondissements Paris
+ ├── Priority 0.75   → 150+ villes + ville+service (métropoles)
+ ├── Priority 0.7    → 20 arr. Paris + 9 arr. Lyon + 12 sect. Marseille
 ├── Priority 0.65   → Blog + 10 articles
 └── Priority 0.3    → 2 pages légales
 ```

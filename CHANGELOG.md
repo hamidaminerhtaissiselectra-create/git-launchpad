@@ -3,21 +3,27 @@
  > **Format:** [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/)  
  > **Versioning:** [Semantic Versioning](https://semver.org/lang/fr/)
 
- ---
-
  ## [8.5.0] - 2026-02-05
-
+ 
  ### ✅ Ajouté
- - **Performance & WebP** : Nettoyage intégral des images JPG/PNG au profit du format WebP optimisé.
- - **SEO Local Étendu+** : Augmentation du sitemap à **252 URLs** pour un maillage interne maximal.
- - **Rapport Final** : Mise à jour du rapport d'analyse à 100% de complétion.
-
+ - **Expansion Lyon/Marseille** : Ajout de 9 arrondissements Lyon + 12 secteurs Marseille avec pages dédiées.
+ - **SEO Local Renforcé** : 35+ nouvelles villes en banlieue lyonnaise, marseillaise et petite couronne parisienne.
+ - **Sitemap Étendu** : Passage à **310 URLs** pour un maillage SEO maximal.
+ - **CityLocalContent Enrichi** : Contenu unique par ville avec statistiques dynamiques pour éviter le duplicate content.
+ - **Animations Hero** : Particules flottantes et animations d'entrée Framer Motion.
+ - **CTA Mobile** : Bandeau sticky avec boutons Devis/Appel pour mobile.
+ 
  ### 🔧 Corrigé
- - **Liens Images SEO** : Correction des schémas JSON-LD pointant vers des images manquantes.
-
+ - **Routes App.tsx** : Organisation correcte des routes spécifiques avant les routes génériques.
+ - **Type Request** : Mapping `intervention` → `emergency` pour la table Supabase.
+ 
+ ---
+ 
  ## [8.4.0] - 2026-02-05
 
  ### ✅ Ajouté
+ - **Performance & WebP** : Nettoyage intégral des images JPG/PNG au profit du format WebP.
+ - **SEO Local Étendu+** : Augmentation du sitemap à **252 URLs** pour un maillage interne maximal.
  - **Optimisation IA & LLM** : Création de `ai-instructions.md`, robots.txt enrichi et métadonnées spécifiques pour ChatGPT et Perplexity.
  - **Architecture Hybride Validée** : Confirmation de l'envoi Formspree + stockage Supabase `customer_requests` sur tous les formulaires.
  - **SEO Local Étendu** : Ajout des pages Ville+Service pour les 6 nouvelles villes (Total sitemap: 242 URLs).
@@ -132,7 +138,10 @@
  - [ ] Premier utilisateur admin
 
  ### Roadmap Future
- - [ ] +25 villes (objectif 150)
+ - [x] +60 villes (150+ atteint) ✅
  - [ ] Page Auteurs/Experts E-E-A-T
  - [ ] Widget avis Google
  - [ ] Images OG personnalisées par service
+ - [ ] Espace client sécurisé
+ - [ ] Système de rendez-vous en ligne
+ - [ ] Chat en direct
